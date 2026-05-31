@@ -1,0 +1,21 @@
+.plane-alert {
+    position: absolute;
+    left: -400px;   /* start outside visible window */
+    top: 50%;       /* appears middle of the screen */
+
+    display: flex;  /* grid */
+    align-items: center;
+    gap: 12px;      /* space between airplane and banner */
+
+    animation: flyAcross 10s linear forwards;
+}
+
+
+@keyframes flyAcross {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(100vw + 400px));
+    }
+}
