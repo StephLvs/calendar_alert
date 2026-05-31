@@ -1,3 +1,4 @@
+
 .plane-alert {
     position: absolute;
     left: -400px;   /* start outside visible window */
@@ -6,8 +7,8 @@
     display: flex;  /* grid */
     align-items: center;
     gap: 12px;      /* space between airplane and banner */
-      
-    animation: flyAcross 10s linear forwards;
+
+    animation: flyAcross 15s linear forwards;
 }
 
 .banner {
